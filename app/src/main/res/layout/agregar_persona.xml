@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombrePersona"
+            android:id="@+id/lblNombre"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp" />
+
+        <Spinner
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmbNombres"
+            android:textSize="20sp"
+            android:layout_below="@+id/lblNombre"
+            android:layout_alignLeft="@+id/lblNombre"
+            android:layout_alignStart="@+id/lblNombre"
+            android:layout_toLeftOf="@+id/cmdNuevoNombre"
+            android:layout_toStartOf="@+id/cmdNuevoNombre"
+            android:layout_marginRight="15dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmdNuevoNombre"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:contextClickable="true"
+            android:layout_gravity="right"
+            android:layout_alignTop="@+id/cmbNombres"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNuevoNombre"
+            android:layout_below="@+id/cmdNuevoNombre"
+            android:layout_alignLeft="@+id/cmbNombres"
+            android:layout_alignStart="@+id/cmbNombres"
+            android:layout_toStartOf="@+id/cmdNuevoNombre"
+            android:layout_alignRight="@+id/cmdNuevoNombre"
+            android:layout_alignEnd="@+id/cmdNuevoNombre"
+            android:layout_marginTop="15dp"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevoNombrePersona"
+            android:id="@+id/lblNuevoNombre"
+            android:layout_below="@+id/cmdNuevoNombre"
+            android:layout_alignLeft="@+id/txtNuevoNombre"
+            android:layout_alignStart="@+id/txtNuevoNombre" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/puso"
+            android:id="@+id/lblPuso"
+            android:layout_below="@+id/txtNuevoNombre"
+            android:layout_alignLeft="@+id/txtNuevoNombre"
+            android:layout_alignStart="@+id/txtNuevoNombre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtPuso"
+            android:layout_below="@+id/lblPuso"
+            android:layout_alignLeft="@+id/lblPuso"
+            android:layout_alignStart="@+id/lblPuso"
+            android:layout_alignRight="@+id/txtNuevoNombre"
+            android:layout_alignEnd="@+id/txtNuevoNombre" />
+    </RelativeLayout>
+
+</LinearLayout>

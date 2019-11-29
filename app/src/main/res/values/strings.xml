@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Cuanto Ponemos?</string>
+    <string name="action_settings">Administrar Amigos</string>
+    <string name="introduccion">Esta aplicacion te permite rapidamente calcular quien le tiene que dar plata a quien cuando no todos pusieron la misma cantidad...</string>
+    <string name="introBotonAgregar">1. Agrega a tus amigos junto con cuanta plata pusieron...</string>
+    <string name="introBotonResolver">2. Una vez que los agregaste, resolve y fijate quien le debe a quien...</string>
+    <!--CUADRO DE DIALOGO NUEVA PERSONA-->
+    <string name="nombrePersona">Nombre:</string>
+    <string name="nuevoNombrePersona">Nuevo Nombre:</string>
+    <string name="puso">Puso:</string>
+    <string name="agregarPersonaTitulo">Agregar Persona</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="seleccione">Seleccione</string>
+    <string name="debeIngresarOSeleccionar">Debe ingresar un nombre o seleccionar uno existente...</string>
+    <string name="debeIngresarCuantoPuso">Debe ingresar cuanta plata puso...</string>
+    <string name="laPersonaExiste">La persona ingresada ya existe...</string>
+    <!--CALCULO FINAL-->
+    <string name="puso$">puso $</string>
+    <string name="leTieneQueDar">le tiene que dar $</string>
+    <string name="aQuien">a</string>
+    <string name="yaPuso">ya puso plata...</string>
+    <string name="nadiePuso">Nadie puso plata...</string>
+    <string name="debeIngresarDatos">Debe ingresar datos para realizar el calculo...</string>
+    <string name="debeIngresarMasDatos">Debe ingresar mas datos para realizar el calculo...</string>
+    <!--ADMINISTRAR AMIGOS-->
+    <string name="title_activity_friends">Administrar Amigos</string>
+    <string name="opcionEditar">Editar</string>
+    <string name="opcionEliminar">Eliminar</string>
+    <string name="deseaEliminar">Esta seguro que lo desea eliminar?</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="editarNombre">Editar Nombre</string>
+    <string name="guardar">Guardar</string>
+    <string name="debeIngresarNombre">Debe ingresar un nombre...</string>
+</resources>
